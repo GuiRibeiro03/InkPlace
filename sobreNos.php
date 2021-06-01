@@ -1,6 +1,6 @@
 <?php
 include_once ("includes/body.inc.php");
-top();
+top(SOBRE);
 ?>
 <section id="hero1" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
@@ -11,9 +11,7 @@ top();
 
 
   <main id="main" style="padding-top: 2%; text-align: justify; width: 100%;">
-      <h1 style="color: black; font-size: 60px!important; margin-left: 2%">
-          <span style="color: orange;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; ">Ink</span>
-          <span style="color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; ">Place</span> </h1>
+      <img src="assets/img/ink.png" style="margin-left: 2%; width: 150px; height: 120px">
       <div class="clients" id="sobreNosTexto" style=" padding: 2% 2% 3% 2%; text-align: justify; font-size: 18px">
       <p>Somos uma empresa jovem, criada em Abril de 2009, composta por uma equipa com muitos conhecimentos nas áreas em que nos dedicamos.
           Para nós os nossos clientes, são parceiros de negócio e são o foco da nossa dedicação diária.</p>

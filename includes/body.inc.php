@@ -1,5 +1,6 @@
 <?php
-function top(){
+include_once("includes/config.inc.php");
+function top($menu){
 ?>
     <!DOCTYPE html>
 <html lang="en">
@@ -74,10 +75,10 @@ function top(){
 
         <nav class="nav-menu d-none d-lg-block">
             <ul>
-                <li class="active"><a href="index.php">INÍCIO</a></li>
-                <li><a href="sobreNos.php">SOBRE NÓS</a></li>
-                <li><a href="contacto.html">ONDE NOS ENCONTRAMOS</a></li>
-                <li><a href="https://pt-pt.facebook.com/pcfarma"><i class="fab fa-facebook-f"></i></a></li>
+                <li <?php if ($menu == HOME) echo "class=\"active\""; ?>><a href="index.php">INÍCIO</a></li>
+                <li <?php if ($menu == SOBRE) echo "class=\"active\""; ?>><a href="sobreNos.php">SOBRE NÓS</a></li>
+                <li <?php if ($menu == ONDE) echo "class=\"active\""; ?>><a href="onde.php">ONDE NOS ENCONTRAMOS</a></li>
+                <li ><a href="https://pt-pt.facebook.com/pcfarma"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="carrinho.html"><i class="fas fa-shopping-cart"></i></a></li>
                 <li><a href=""><i class="fas fa-user"></i></a></li>
             </ul>
