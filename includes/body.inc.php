@@ -75,7 +75,7 @@ function top(){
         <nav class="nav-menu d-none d-lg-block">
             <ul>
                 <li class="active"><a href="index.php">INÍCIO</a></li>
-                <li><a href="contacto.html">SOBRE NÓS</a></li>
+                <li><a href="sobreNos.php">SOBRE NÓS</a></li>
                 <li><a href="contacto.html">ONDE NOS ENCONTRAMOS</a></li>
                 <li><a href="https://pt-pt.facebook.com/pcfarma"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="carrinho.html"><i class="fas fa-shopping-cart"></i></a></li>
