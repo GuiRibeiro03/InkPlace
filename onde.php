@@ -11,11 +11,8 @@ top(ONDE);
     <main id="main">
 
         <section id="contact" class="contact">
-            <div class="container" data-aos="fade-up">
+            <div class="container" data-aos="fade-up" >
 
-                <div class="section-title">
-                    <h3><span>Apoio ao cliente</span></h3>
-                </div>
 
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
                     <div class="col-lg-6">
