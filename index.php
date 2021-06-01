@@ -74,13 +74,6 @@ top(HOME);
         <br>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <!-- ======= Clients Section ======= -->
         <section id="clients" class="clients section-bg">
             <div class="container" data-aos="zoom-in">
