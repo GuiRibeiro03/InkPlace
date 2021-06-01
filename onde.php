@@ -17,7 +17,7 @@ top(ONDE);
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
                     <div class="col-lg-6">
                         <div class="info-box mb-4" style="width: 90%; text-align: center">
-                            <i class="bx bx-map"></i>
+                            <i class="bx bx-map" style="color:orange;"></i>
                             <h3>Endereço</h3>
                             <p style="font-size: 18px; "> Estrada de Leiria, 206
                                 Edificio Embra Park 1º G,
@@ -29,7 +29,7 @@ top(ONDE);
 
                     <div class="col-lg-3 col-md-6">
                         <div class="info-box  mb-4">
-                            <i class="bx bx-envelope"></i>
+                            <i class="bx bx-envelope" style="color:orange;"></i>
                             <h3>Email</h3>
                             <p style="font-size: 18px; ">inkplace@gmail.pt</p>
                         </div>
@@ -37,7 +37,7 @@ top(ONDE);
 
                     <div class="col-lg-3 col-md-6">
                         <div class="info-box  mb-4">
-                            <i class="bx bx-phone-call"></i>
+                            <i class="bx bx-phone-call" style="color:orange;"></i>
                             <h3>Contacta-nos</h3>
                             <p style="font-size: 18px">244560392 </p>
                         </div>
@@ -83,7 +83,7 @@ top(ONDE);
                                 <div class="sent-message">O seu email foi enviado. Obrigado!</div>
                             </div>
                             <div class="text-center">
-                                <button type="submit">Enviar email</button>
+                                <button  type="submit">Enviar email</button>
                             </div>
                         </form>
                     </div>
