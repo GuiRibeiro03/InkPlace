@@ -9,9 +9,8 @@ top(SOBRE);
 </section><!-- End Hero -->
 
 
-
-  <main id="main" style="padding-top: 2%; text-align: justify; width: 100%;">
-      <img src="assets/img/ink.png" style="margin-left: 2%; width: 150px; height: 120px">
+<div style="width: 100%; text-align: center"> <img src="assets/img/ink.png" style="margin-left: 2%; width: 200px; height: 150px; "></div>
+  <main id="main" style=" text-align: justify; width: 100%;">
       <div class="clients" id="sobreNosTexto" style=" padding: 2% 2% 3% 2%; text-align: justify; font-size: 18px">
       <p>Somos uma empresa jovem, criada em Abril de 2009, composta por uma equipa com muitos conhecimentos nas áreas em que nos dedicamos.
           Para nós os nossos clientes, são parceiros de negócio e são o foco da nossa dedicação diária.</p>
