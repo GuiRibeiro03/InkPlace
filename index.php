@@ -77,7 +77,7 @@ top(HOME);
         <!-- ======= Clients Section ======= -->
         <section id="clients" class="clients section-bg">
             <div class="container" data-aos="zoom-in">
-                <h2 style="color: #292929; font-weight: bold; font-size: 40px ">Lojas associadas</h2>
+                <h2 style="color: #292929; font-weight: bold; font-size: 40px; text-align: center">Lojas associadas</h2>
                 <br>
                 <div class="row" id="LojasAssoc">
 
