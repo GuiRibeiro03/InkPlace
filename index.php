@@ -11,7 +11,7 @@ top(HOME);
     <section id="hero" class="d-flex align-items-center">
         <div class="container" data-aos="zoom-out" data-aos-delay="100">
             <h1 style="color: black;    ">Bem-vindo à <span
-                        style="color: orange;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; ">Ink</span>
+                        style="color: #e67817;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; ">Ink</span>
                 <span style="color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; ">Place</span>
             </h1>
             <h2 style="color: #292929">Distribuição e Serviços</h2>
