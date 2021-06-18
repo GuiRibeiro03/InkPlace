@@ -1,6 +1,8 @@
 <?php
 include_once("includes/body.inc.php");
 top(ONDE);
+
+$con=mysqli_connect(HOST,USER,PASS,DATABASE);
 ?>
     <section id="hero1" class="d-flex align-items-center">
         <div class="container" data-aos="zoom-out" data-aos-delay="100">

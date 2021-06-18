@@ -1,8 +1,8 @@
 <?php
 include_once("includes/body.inc.php");
-
 top(HOME);
 
+$con=mysqli_connect(HOST,USER,PASS,DATABASE);
 
 ?>
 
@@ -21,52 +21,38 @@ top(HOME);
 
     <main id="main" style=" background-color: #FFFFFF;">
         <!-- Start Icon Box Area -->
+
         <div class="icon-box-area pt-70 pb-70" id="feature" style="padding-top:3%; background-color: #FFFFFF;">
             <div class="container">
                 <div class="row">
+
+<?php
+
+$sql="Select * from paginas 
+inner join seccoes on seccaoId=paginaSeccaoId
+inner join sites on siteId =seccaoSiteId
+where siteNome='inkplace' and seccaoNome='home'";
+$resultPg=mysqli_query($con,$sql);
+while($dadosPg=mysqli_fetch_array($resultPg)){
+
+    ?>
                     <div class="col-lg-4">
                         <div class="single-icon-box icon-box-img-1">
                             <div class="icon-box-content">
-                                <h6 class="iconbox-content-heading"><i class="fa fa-handshake"></i> Seja nosso parceiro!
+                                <h6 class="iconbox-content-heading"><i class="fa fa-handshake"></i><?php echo $dadosPg['paginaNome']?>
                                 </h6>
                                 <div class="iconbox-content-body">
                                     <br>
-                                    <p>Venha conhecer-nos! Juntos somos mais fortes!
+                                    <p><?php echo $dadosPg['paginaTexto']?>
                                     </p>
 
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="single-icon-box icon-box-img-2">
-                            <div class="icon-box-content">
-                                <h6 class="iconbox-content-heading"><i class="fa fa-road"></i> Sem Limites!
-                                </h6>
-                                <div class="iconbox-content-body">
-                                    <br>
-                                    <p> Trabalhamos todos os dias para o servir melhor...</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="single-icon-box icon-box-img-3">
-                            <div class="icon-box-content">
-                                <h6 class="iconbox-content-heading"><i class="fa fa-bar-chart"></i> Planeamento
-                                </h6>
-                                <div class="iconbox-content-body">
-                                    <br>
-                                    <p>
-                                        Procuramos todos os dias criar e desenvolver as melhores soluções para as suas
-                                        necessidades.
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <?php
+}
+        ?>
                 </div>
             </div>
         </div>
@@ -75,7 +61,7 @@ top(HOME);
         <br>
         <br>
         <!-- ======= Clients Section ======= -->
-        <section id="clients" class="clients section-bg">
+        <!--section id="clients" class="clients section-bg">
             <div class="container" data-aos="zoom-in">
                 <h2 style="color: #292929; font-weight: bold; font-size: 40px; text-align: center">Lojas associadas</h2>
                 <br>
@@ -102,10 +88,11 @@ top(HOME);
                 </div>
 
             </div>
-        </section><!-- End Clients Section -->
+        </section--><!-- End Clients Section -->
 
     </main><!-- End #main -->
 
 <?php
+
 bot();
 ?>
